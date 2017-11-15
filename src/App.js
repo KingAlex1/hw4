@@ -6,11 +6,12 @@ import ModalButton from './ModalButton';
 
 class App extends Component {
   render() {
-    return (
+    return (      
       <Switcher>
         <CardNumberHolder />
         <ModalButton />
-      </Switcher>
+      </Switcher>   
+      
     );
   }
 }

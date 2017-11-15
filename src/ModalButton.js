@@ -1,8 +1,13 @@
-import {Component} from 'react';
+import React,{Component} from 'react';
 
 class ModalButton extends Component {
   render() {
-    return null;
+    return (
+      <button
+      
+      >Show modal!
+      </button>
+    );
   }
 }
 
